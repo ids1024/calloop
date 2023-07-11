@@ -1,0 +1,1 @@
+RUSTFLAGS='--cfg polling_test_poll_backend' cargo build --test bad_fd

@@ -45,3 +45,6 @@ rustdoc-args = ["--cfg", "docsrs"]
 [[test]]
 name = "signals"
 harness = false
+
+[[test]]
+name = "bad_fd"
